@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AllStars Coding test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="navbar__logo">
+            <img class="navbar__logo-img" src="/assets/random.svg" alt="Logo">
+        </div>
+        <div class="navbar__menu-toggle" id="menu-toggle">
+            <div class="navbar__bar" id="bar1"></div>
+            <div class="navbar__bar" id="bar2"></div>
+            <div class="navbar__bar" id="bar3"></div>
+        </div>
+        <div class="navbar__text-container">
+            <ul class="navbar__list">
+                <li class="navbar__item"><a class="navbar__link" href="/index.html">Home</a></li>
+                <li class="navbar__item"><a class="navbar__link" href="/about.html">About</a></li>
+                <li class="navbar__item"><a class="navbar__link" href="/contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <section class="image-overlay image-overlay--initial">
+        <div class="image-overlay__background"></div>
+        <div class="image-overlay__content">
+            <h1 class="image-overlay__title">Overlay Title</h1>
+            <p class="image-overlay__text">This is some overlay text.</p>
+            <button class="image-overlay__button" id="try-me-button" aria-label="Try Me">Try Me</button>
+        </div>
+    </section>
+    
+    <section class="hidden-section" id="hidden-section">
+        <h1 class="hidden-section__title">New Section</h1>
+        <p class="hidden-section__text">This is a new section with different content.</p>
+        <button class="image-overlay__button" id="try-me-again-button" aria-label="Try Me Again">Try Me Again</button>
+    </section>
+
+    <footer class="footer">
+        <p class="footer__text">© 2023 Your Company Name. All rights reserved.</p>
+    </footer>
+<script src="/app.js"></script>
+</body>
+</html>
